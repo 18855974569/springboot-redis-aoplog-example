@@ -32,4 +32,5 @@ public class LockController {
         userService.addUser();
         return new ResponseEntity(user, HttpStatus.OK);
     }
+
 }
